@@ -36,6 +36,11 @@ module Urbanairship
         { device_pin: pin.downcase.strip }
       end
 
+      # Select a named user
+      def named_user(named_user_id)
+        { named_user: named_user_id }
+      end
+
       # Select a single tag
       def tag(tag, group: nil)
         tag_params = { tag: tag }
