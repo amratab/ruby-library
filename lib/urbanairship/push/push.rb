@@ -91,6 +91,10 @@ module Urbanairship
         pr
       end
 
+      def test_method
+        'I am here'
+      end
+
       # Build a Scheduled Push Notification object its existing Scheduled Push URL
       #
       # @param [Object] client The Client
