@@ -91,7 +91,7 @@ module Urbanairship
         pr
       end
 
-      def test_method
+      def self.test_method
         'I am here'
       end
 
